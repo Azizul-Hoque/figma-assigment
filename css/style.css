@@ -1,0 +1,392 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 1196px;
+    margin: auto;
+}
+
+
+ul,ol{
+    list-style: none;
+}
+
+.row{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+
+    text-decoration: none;
+}
+.btn{
+    width: 203px;
+    height: 64px;
+    display: inline-block;
+    text-align: center;
+    line-height: 64px;
+    color: white;
+    background-color: #676CDB;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: space-between;
+}
+
+/* basic set up ends here */
+
+#banner{
+
+    height: 743px;
+    background-image: url(../image/homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+nav .head{
+    padding-top: 17px;
+}
+nav .logo{
+    width: 394px;
+    margin: auto;
+    margin-left: 14px;
+    
+    }
+    nav .logo img{
+        display: block;
+        
+    }
+
+
+
+.menu ul{
+    text-align: left;
+}
+
+.menu ul li{
+    display: inline-block;
+
+}
+ .menu ul li a{
+    display: inline-block;
+    padding: 19px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    
+
+ }
+ .menu ul li:last-child{
+    background-color: #676CDB;
+    margin-left: 298px;
+ }
+
+
+
+ 
+
+
+
+  
+
+/* nav ends here */
+/* banner starts here */
+
+.banner-cnt h1{
+    font-size: 90px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    line-height: 108px;
+    padding-top: 130px;
+}
+.banner-cnt p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+    font-style: normal;
+    margin-top: 30px;
+
+}
+
+.banner-cnt .btn{
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.banner-cnt .btn span{
+    padding-right: 10px;
+}
+
+
+
+.banner-cnt .down{
+
+   
+    font-size: 20px;
+    font-weight: 400;    
+    display: inline-block;
+ color: #FFFFFF;
+ text-decoration: underline;
+ font-family: 'Poppins', sans-serif;
+ margin-left: 15px;
+
+   }
+
+   .banner-cnt .down {
+
+    padding-right: 5px;
+   }
+
+
+/* abnner ends here */
+
+/* skill starts here */
+
+#skill{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.skill-image img{
+  
+    padding-top: 60px;
+}
+
+
+
+/* experience starts here */
+
+#experien{
+    width: 100%;
+    height: 659px;
+    background-color: #222A36;
+}
+#experien .text{
+    padding-top: 170px;
+    width: 270px;
+}
+
+#experien .text h1{
+
+
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #676CDB;
+    
+}
+#experien .text h2{
+
+
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    
+}
+
+#experien .fame {
+    padding-top: 140px;
+}
+#experien .fame h1{
+
+
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.fame .front{
+    width: 288px;
+    height: 295px;
+    background-color: #C4C4C4;
+    padding-top: 170px;
+    padding-left: 25px;
+    margin-right:20px ;
+    margin-top: 40px;
+    transition: 400ms;
+
+}
+.front a span{
+    color: #000000;
+}
+
+.fame .front:hover span{
+    color: white;
+}
+
+.fame .front:hover{
+    background-color: #676CDB;
+    color: white;
+
+
+}
+/* praise starts here */
+
+#praise{
+    width: 100%;
+    height: 650px;
+    background-color: #222A36;
+}
+#praise .praise-image{
+    padding-top: 110px;
+}
+
+#praise .praise-text{
+    padding-top: 108px;
+    padding-left: 15px;
+    margin-right: 80px;
+    width: 520px;
+}
+
+
+
+
+.praise-text p b{
+    width: 47px;
+    height: 77px;
+    
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 30px;
+
+}
+
+#praise .praise-text p{
+
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    
+    
+
+}
+
+.praise-text a span{
+
+
+    
+    margin-right: 0px;
+    
+    display: inline-block;
+    color: #676CDB;
+}
+/* hdhdh */
+
+#praise .praise-project{
+    padding-top: 110px;
+}
+#praise .praise-project p{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-transform: capitalize;
+
+
+}
+
+#praise .praise-project h3{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    color: #676CDB;
+    padding-bottom: 18px;
+
+
+}
+/* contact startss here */
+#contact{
+    height: 730px;
+    background-color: #000000;
+    
+}
+#contact .icon{
+    width: 70%;
+    padding-top: 122px;
+}
+
+#contact .address{
+    width: 30%;
+    padding-top: 106px;
+ 
+}
+#contact .icon h2{
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 56px;
+
+}
+#contact .address ul li a{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    
+
+}
+#contact .address ul li{
+    padding-bottom: 105px; 
+}
+
+#contact .address ul li .send{
+    color: #676CDB;
+}
+
+.address .send span{
+    padding-left: 30px;
+    
+}
+.icon .social span{
+
+    background-color: #000000;
+    color: white;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+#contact p {
+    text-align: center;
+    color: #C4C4C4;
+    font-size: 20px;
+}
+
+#contact p strong{
+    
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
